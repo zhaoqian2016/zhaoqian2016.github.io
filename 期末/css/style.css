@@ -250,7 +250,7 @@ body {
 
 .section1 {
     /*background: url(../images/bg1.png) 0 50% repeat-x;*/
-    background: linear-gradient(#0C5BD0, #033A8A);
+    /*background: linear-gradient(#0C5BD0, #033A8A);*/
 }
 
 .logo1 {
@@ -275,9 +275,9 @@ body {
     position: absolute;
     left: -200%;
     top: 50%;
-    width: 444px;
-    height: 514px;
-    margin: -260px 0 0 -50px;
+    width: 200px;
+    height: 80px;
+    margin: 20px 10 10 -30px;
     background-image: url(../images/l1.png);
 }
 
@@ -354,11 +354,11 @@ body {
 
 .right2 {
     position: absolute;
-    left: 200%;
+    left: 50%;
     top: 50%;
-    width: 593px;
-    height: 518px;
-    margin-top: -269px;
+    width: 200px;
+    height: 80px;
+    margin-top: -200px;
     background-image: url(../images/r2.png);
 }
 
@@ -422,9 +422,9 @@ body {
 .left3 {
     position: absolute;
     left: -200%;
-    top: 50%;
-    width: 602px;
-    height: 244px;
+    top: 90%;
+    width: 200px;
+    height: 80px;
     margin: -122px 0 0 -50px;
     background: url(../images/l3.png) 50% 50% no-repeat;
 }
@@ -500,12 +500,12 @@ body {
     position: absolute;
     left: 0;
     top: 50%;
-    width: 710px;
-    height: 372px;
+    width: 700px;
+    height: 450px;
     margin: -165px 0 0 -110px;
-    background: url(../images/l4-3.png);
+    background: url(../images/l4-3.png) 50% 50% no-repeat;
     opacity: 0;
-}
+}s
 
 .dian {
     position: absolute;
@@ -550,8 +550,8 @@ body {
     position: absolute;
     left: 200%;
     top: 50%;
-    width: 595px;
-    height: 341px;
+    width: 200px;
+    height: 80px;
     margin: -175px 0 0 10px;
     background-image: url(../images/r4.png);
 }
@@ -594,18 +594,18 @@ body {
     left: -200%;
     top: 50%;
     width: 588px;
-    height: 505px;
+    height: 605px;
     margin: -253px 0 0 -80px;
     background: url(../images/l5.png) 50% 50% no-repeat;
 }
 
 .right5 {
     position: absolute;
-    left: 200%;
-    top: 50%;
-    width: 600px;
-    height: 408px;
-    margin-top: -204px;
+    left: -300%;
+    top: 70%;
+    width: 200px;
+    height: 80px;
+    margin-top: -104px;
     background-image: url(../images/r5.png);
 }
 
@@ -845,8 +845,8 @@ body {
 /* 绗簲灞忓姩鐢� */
 
 .bg5-3 {
-    -webkit-animation: bg5-3 20s linear infinite 0s;
-    animation: bg5-3 20s linear infinite 0s;
+    -webkit-animation: bg5-3 20s linear infinite 3s;
+    animation: bg5-3 20s linear infinite 3s;
 }
 
 @-webkit-keyframes bg5-3 {
